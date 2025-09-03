@@ -2,9 +2,5 @@
   "version": 2,
   "redirects": [
     { "source": "/", "destination": "/sidnei", "permanent": true }
-  ],
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }

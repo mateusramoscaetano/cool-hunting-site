@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "^/$", "headers": { "Location": "/sidnei" }, "status": 308 },
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/dist/index.html" }
+  ]
+}
